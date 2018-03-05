@@ -1,0 +1,37 @@
+\begin{thebibliography}{1}
+
+\bibitem{Fitzhugh_1961}
+R.~Fitzhugh.
+\newblock {Impulses and Physiological States in Theoretical Models of Nerve
+  Membrane}.
+\newblock {\em Biophysical Journal}, 1(6):445--466, 1961.
+
+\bibitem{Morris_1981}
+C.~Morris and H.~Lecar.
+\newblock {Voltage Oscillations in the Barnacle Giant Muscle Fiber}.
+\newblock {\em Biophysical Journal}, 35(1):193--213, 1981.
+
+\bibitem{Gerstner_2002}
+W.~Gerstner and W.~M. Kistler.
+\newblock {\em {Spiking Neuron Models: Single Neurons, Populations,
+  Plasticity}}.
+\newblock Cambridge University Press, New York, NY, USA, 2002.
+
+\bibitem{Sompolinsky_1988}
+H.~Sompolinsky, A.~Crisanti, and H.~J. Sommers.
+\newblock {Chaos in Random Neural Networks}.
+\newblock {\em Phys. Rev. Lett.}, 61:259--262, Jul 1988.
+
+\bibitem{Vreeswijk_1996}
+C.~van Vreeswijk and H.~Sompolinsky.
+\newblock {Chaos in neuronal networks with balanced excitatory and inhibitory
+  activity.}
+\newblock {\em Science}, 274:1724--1726, 1996.
+
+\bibitem{Brunel_2000}
+N.~Brunel.
+\newblock {Dynamics of sparsely connected networks of excitatory and inhibitory
+  spiking neurons.}
+\newblock {\em J Comput Neurosci}, 8:183--208, 2000.
+
+\end{thebibliography}

@@ -1,0 +1,59 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage[left=3.8cm,right=3.8cm,top=1.5cm,bottom=2cm]{geometry}
+\title{A Continuous-Time Dynamical System Describing both Rate Encoding and Spiking Neurons}
+
+\begin{document}
+\renewcommand{\refname}{}
+\pagenumbering{gobble}
+\maketitle
+
+\noindent
+Schubert, F. (1) \& Gros, C. (1)
+\\
+\bigskip
+
+\noindent
+1 Goethe University Frankfurt, Institute for Theoretical Physics, Frankfurt am Main, Germany
+\\
+Corresponding author: fschubert@th.physik.uni-frankfurt.de
+\bigskip
+
+Ever since the electro-physiological properties of neurons have 
+been investigated, an abundance of dynamical systems was proposed 
+and used to explain neuronal activity. The simplest types of models 
+that exhibit spiking behavior by means of completely differentiable 
+dynamics are nonlinear two-dimensional oscillators with two very distinct
+time scales, whose dynamics are often derived by simplifying higher-dimensional 
+systems by means of projection or separation of timescales \cite{Fitzhugh_1961,Morris_1981}. 
+Furthermore, on an higher level of abstraction, we find neuronal models 
+that encode information on the level of neuronal firing rates \cite{Gerstner_2002}.
+
+We introduce a two-dimensional nonlinear system, modeling a wide range of 
+dynamic properties of spiking neurons. Yet, by altering key parameters of this system, 
+its dynamics become identical to those of a time-continuous rate encoding model. Thus, 
+our model allows for a continuous transition between spiking dynamics 
+and a canonical form of rate encoding. Thereby, the differences  of the dynamical 
+properties of single units as well as of network structures under these two 
+regimes can be treated within the same mathematical framework. In particular, 
+applying this approach to recurrent networks enables us to unify concepts of 
+irregular/regular network behavior typically associated with either of 
+these classes of neuron models \cite{Sompolinsky_1988,Vreeswijk_1996,Brunel_2000}.
+
+Furthermore, we show how a canonical form of Hebbian plasticity can be incorporated 
+such that well-established formulations appear within the respective parameter
+range, spanning from spike-timing dependent plasticity to a rate-based mechanism.
+
+Though appearing contradictory, we believe that a \emph{unification} of different neural 
+modeling schemes can help clarifying \emph{differences} between their functional properties,
+since an analysis of the systems can take place within the same scope of qualitative 
+and quantitative measures.
+\bibliographystyle{unsrt}
+\bibliography{bibfile_abstract}
+\end{document}
