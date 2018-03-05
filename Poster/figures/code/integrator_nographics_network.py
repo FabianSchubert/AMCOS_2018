@@ -5,10 +5,12 @@
 import numpy as np
 from tqdm import tqdm
 import matplotlib.pyplot as plt
+import matplotlib as mpl
+mpl.rcParams["font.size"] = 8.
 import pdb
 
-
-from spiking_dyn_params import *
+from rate_dyn_params import *
+#from spiking_dyn_params import *
 
 def length(r):
 	return (r[0]**2+r[1]**2)**0.5
@@ -39,16 +41,14 @@ dim=12.7
 
 zoom=400
 
-dt=0.005
+dt=0.01
 
 
 t=0
 t_end=300
 n_t = int(t_end/dt)
 
-
-
-N=2
+N=3
 
 r_rec = np.ndarray((n_t,N,2))
 u_rec = np.ndarray((n_t,N))
@@ -57,7 +57,7 @@ u=np.zeros(N)*0.
 
 I=np.zeros(N)*0.
 
-r=np.random.random((N,2))*s
+r=np.zeros((N,2))
 
 g_exc = np.zeros((N))
 g_inh = np.zeros((N))
@@ -65,25 +65,19 @@ g_inh = np.zeros((N))
 g_exc_rec = np.ndarray((n_t,N))
 g_inh_rec = np.ndarray((n_t,N))
 
-E_exc_syn = 10.
-E_inh_syn = -10.
-tau_g = 20.
-
 trigger=np.ones(N)
 
-#data = open("spikin_network.txt", "w")
-#data_t= open("spiking_neuron_noise.txt", "w")
 
-p_connect=1.
+exc_ind = np.where(W_combined>0)
+inh_ind = np.where(W_combined<0)
 
+W_exc = np.zeros((N,N))
+W_inh = np.zeros((N,N))
 
-W_exc=np.array([[0.,0.],
-				[1.,0.]])*2.
+W_exc[exc_ind[0],exc_ind[1]] = W_combined[exc_ind[0],exc_ind[1]]
 
-W_inh=np.array([[0.,1.],
-				[0.,0.]])*2.
+W_inh[inh_ind[0],inh_ind[1]] = -W_combined[inh_ind[0],inh_ind[1]]
 
-#A=(np.random.normal(0.,1.,(N,N))<=p_connect)*0./(N*p_connect)
 
 I_ext_rec = np.ndarray((n_t,N))
 I_rec = np.ndarray((n_t,N))
@@ -91,7 +85,7 @@ I_rec = np.ndarray((n_t,N))
 I_exc_syn_rec = np.ndarray((n_t,N))
 I_inh_syn_rec = np.ndarray((n_t,N))
 
-I_ext = np.array([7.,0.])#np.linspace(-20.,30.,n_t)
+I_ext = np.array([0.,0.,0.])#np.linspace(-20.,30.,n_t)
 
 
 
@@ -148,7 +142,21 @@ for t in tqdm(range(n_t)):
 	#if t>=t_end:
 	#	sys.exit(0)
 	#	data.close()
-plt.plot(np.array(range(n_t))*dt,u_rec)
+fig,ax = plt.subplots(N,2,figsize=(15,10))
+labels=["isolated reference neuron","exc. neuron","inh. neuron"]
+for k in range(N):
+	ax[k,0].plot(np.array(range(n_t))*dt,u_rec[:,k],c="k")
+	ax[k,0].set_title(labels[k])
+	ax[k,0].set_xlabel("t")
+	ax[k,0].set_ylabel("u")
+
+	ax[k,1].plot(r_rec[:,k,0],r_rec[:,k,1],c="k")
+	ax[k,1].grid()
+	ax[k,1].set_xlabel("x")
+	ax[k,1].set_ylabel("y")
+	ax[k,1].set_title(labels[k])
+plt.tight_layout()	
+
 plt.show()
 pdb.set_trace()
 
