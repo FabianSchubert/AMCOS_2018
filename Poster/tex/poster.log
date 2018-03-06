@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  6 MAR 2018 11:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  6 MAR 2018 16:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1156,7 +1156,14 @@ Package beamerposter Info: fontscale=1.0, myfontscale=1.40 on input line 174.
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
 ( FP-ROUND ) ) ( FP-UPN ( FP-MUL ) ( FP-ROUND ) ) ( FP-UPN ( FP-MUL )
-( FP-ROUND ) )) (./poster.aux)
+( FP-ROUND ) )) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip61
+\bibsep=\skip62
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count169
+)
+(./poster.aux)
 \openout1 = `poster.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -1210,16 +1217,16 @@ LaTeX Font Info:    ... okay on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count169
+\scratchcounter=\count170
 \scratchdimen=\dimen192
 \scratchbox=\box53
-\nofMPsegments=\count170
-\nofMParguments=\count171
+\nofMPsegments=\count171
+\nofMParguments=\count172
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count172
+\MPscratchCnt=\count173
 \MPscratchDim=\dimen193
-\MPnumerator=\count173
-\makeMPintoPDFobject=\count174
+\MPnumerator=\count174
+\makeMPintoPDFobject=\count175
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1246,7 +1253,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count175
+\c@section@level=\count176
 )
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
@@ -1291,24 +1298,48 @@ File: ../GU-Logo-schwarz.pdf Graphic file (type pdf)
 <use ../GU-Logo-schwarz.pdf>
 Package pdftex.def Info: ../GU-Logo-schwarz.pdf used on input line 16.
 (pdftex.def)             Requested size: 290.6806pt x 158.38124pt.
-LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 62.
+LaTeX Font Info:    Calculating math sizes for size <34.83> on input line 81.
 
 <../figures/graphics/dynamics_combined_figure.png, id=16, 1100.1903pt x 805.569
 6pt>
 File: ../figures/graphics/dynamics_combined_figure.png Graphic file (type png)
  <use ../figures/graphics/dynamics_combined_figure.png>
 Package pdftex.def Info: ../figures/graphics/dynamics_combined_figure.png used 
-on input line 62.
-(pdftex.def)             Requested size: 839.5132pt x 614.69765pt.
-LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 62.
-File: ../GU-Logo-schwarz.pdf Graphic file (type pdf)
+on input line 81.
+(pdftex.def)             Requested size: 944.44235pt x 691.52257pt.
+LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 81.
 
-<use ../GU-Logo-schwarz.pdf>
-Package pdftex.def Info: ../GU-Logo-schwarz.pdf used on input line 62.
+<../figures/graphics/bif_types_combined_figure.png, id=18, 1197.5139pt x 844.83
+63pt>
+File: ../figures/graphics/bif_types_combined_figure.png Graphic file (type png)
+
+ <use ../figures/graphics/bif_types_combined_figure.png>
+Package pdftex.def Info: ../figures/graphics/bif_types_combined_figure.png used
+ on input line 81.
+(pdftex.def)             Requested size: 944.44235pt x 666.29184pt.
+
+<../figures/graphics/spikefit.png, id=19, 692.8284pt x 395.076pt>
+File: ../figures/graphics/spikefit.png Graphic file (type png)
+
+<use ../figures/graphics/spikefit.png>
+Package pdftex.def Info: ../figures/graphics/spikefit.png used on input line 81
+.
+(pdftex.def)             Requested size: 839.5132pt x 478.73067pt.
+ (./poster.bbl
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <34.83> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 5.
+
+)
+File: ../GU-Logo-schwarz.pdf Graphic file (type pdf)
+ <use ../GU-Logo-schwarz.pdf>
+Package pdftex.def Info: ../GU-Logo-schwarz.pdf used on input line 81.
 (pdftex.def)             Requested size: 290.6806pt x 158.38124pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
- <../GU-Logo-schwarz.pdf> <../figures/graphics/dynamics_combined_figure.png>]
+ <../GU-Logo-schwarz.pdf> <../figures/graphics/dynamics_combined_figure.png> <.
+./figures/graphics/bif_types_combined_figure.png> <../figures/graphics/spikefit
+.png>]
 \tf@nav=\write6
 \openout6 = `poster.nav'.
 
@@ -1318,33 +1349,34 @@ Package pdftex.def Info: ../GU-Logo-schwarz.pdf used on input line 62.
 \tf@snm=\write8
 \openout8 = `poster.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 82.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 82.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 82.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 82.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 63.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 82.
  ) 
 Here is how much of TeX's memory you used:
- 18248 strings out of 494860
- 337426 string characters out of 6177602
- 441891 words of memory out of 5000000
- 21088 multiletter control sequences out of 15000+600000
- 21529 words of font info for 87 fonts, out of 8000000 for 9000
+ 18601 strings out of 494860
+ 341931 string characters out of 6177602
+ 455145 words of memory out of 5000000
+ 21429 multiletter control sequences out of 15000+600000
+ 22181 words of font info for 89 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  48i,21n,66p,413b,971s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on poster.pdf (1 page, 589659 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on poster.pdf (1 page, 1324809 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
- 4 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70 PDF objects out of 1000 (max. 8388607)
+ 43 compressed objects within 1 object stream
+ 6 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

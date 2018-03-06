@@ -4,7 +4,7 @@
 \mode<presentation>{\usetheme{FS18}}
 \usepackage{amsmath,amsthm, amssymb, latexsym}
 \usepackage[orientation=portrait,size=a0,scale=1.4]{beamerposter}
-
+\usepackage{natbib}
 \graphicspath{{../figures/graphics/}}
  
 \title{A Continuous-Time Dynamical System Describing both Rate Encoding and Spiking Neurons}
@@ -32,7 +32,8 @@ The model consists of a two-dimensional non-linear system given by
 \begin{minipage}[t]{.5\linewidth}
 \begin{align*}
 \tau_x \dot{x} &= f(x) - y  \\ 
-\tau_y \dot{y} &= g(x) - y 
+\tau_y \dot{y} &= g(x) - y \\
+u(x,y) &:= \frac{x+y}{\sqrt{2}}
 \end{align*}
 \end{minipage}%
 \begin{minipage}[t]{.5\linewidth}
@@ -44,19 +45,37 @@ g(x) &= g_0 \sigma\left(a_g\left(x-I\right)\right) - \Delta_y \\
 \end{minipage}
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{../figures/graphics/dynamics_combined_figure.png}
+\includegraphics[width=0.9\textwidth]{../figures/graphics/dynamics_combined_figure.png}
 \label{fig:dynamics_illustr}
-\caption{A: x/y-nullclines (blue/red) of the dynamical system for parameter sets generating spiking/non spiking behavior. B: Phase plane trajectory for the spiking dynamics. C/D: Dynamics of readout variable $u$ for the spiking/non-spiking case.}
+\caption{\textbf{A}: x/y-nullclines (blue/red) of the dynamical system for parameter sets generating spiking/non spiking behavior. \textbf{B}: Phase plane trajectory for the spiking dynamics. \textbf{C}/\textbf{D}: Dynamics of readout variable $u$ for the spiking/non-spiking case.}
 \end{figure}
 \end{block}
-\begin{block}{Results}
+\begin{block}{Results -- Spiking Neuron Model}
 \begin{itemize}
-\item A wide range of different types of spiking dynamics can be reproduced by this generic system.
+\item A range of different types of spiking dynamics can be reproduced by this generic system.
 \end{itemize}
+\begin{figure}
+\includegraphics[width=0.9\textwidth]{../figures/graphics/bif_types_combined_figure.png}
+\label{fig:bif_types_combined}
+\caption{Examples of spiking dynamics/bifurcations observed in the model, ordered by the property of coexistence of resting/spiking states and the possibility of sub-threshold oscillations. A: Saddle node bifurcation with coexisting limit cycle. B: Saddle node b. on invariant cycle. C: Subcritical Hopf b/ Fold b. of limit cycles. C: Supercritical Hopf b.}
+\end{figure}
+\begin{itemize}
+\item Based on the classification by Izhikevich \cite{Izhikevich_2007}, our model was able to generate class 1 (arbitrary small firing rates) as well as class 2 (all-or-none spiking behavior) firing patterns. 
+\end{itemize}
+\end{block}
+\begin{block}{Results -- Fitting Experimental Data}
+LALALA \\
+LALALA \\
+LALALA
 \end{block}
 \end{column}
 \begin{column}{.45\textwidth}
+\begin{figure}
+\includegraphics[width=0.8\textwidth]{../figures/graphics/spikefit.png}
+\end{figure}
 
+\bibliographystyle{unsrt}
+\bibliography{poster_citations}
 \end{column}
 \end{columns}
 \end{frame}
