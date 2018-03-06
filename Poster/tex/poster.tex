@@ -28,7 +28,7 @@ these two regimes can be treated within the same mathematical framework.
 \end{itemize}
 \end{block}
 \begin{block}{Neuron Model}
-A two-dimensional non-linear system given by
+The model consists of a two-dimensional non-linear system given by
 \begin{minipage}[t]{.5\linewidth}
 \begin{align*}
 \tau_x \dot{x} &= f(x) - y  \\ 
@@ -44,10 +44,15 @@ g(x) &= g_0 \sigma\left(a_g\left(x-I\right)\right) - \Delta_y \\
 \end{minipage}
 \begin{figure}
 \centering
-\includegraphics[width=0.8\textwidth]{../figures/graphics/dynamics_combined_figure.pdf}
+\includegraphics[width=0.8\textwidth]{../figures/graphics/dynamics_combined_figure.png}
 \label{fig:dynamics_illustr}
 \caption{A: x/y-nullclines (blue/red) of the dynamical system for parameter sets generating spiking/non spiking behavior. B: Phase plane trajectory for the spiking dynamics. C/D: Dynamics of readout variable $u$ for the spiking/non-spiking case.}
 \end{figure}
+\end{block}
+\begin{block}{Results}
+\begin{itemize}
+\item A wide range of different types of spiking dynamics can be reproduced by this generic system.
+\end{itemize}
 \end{block}
 \end{column}
 \begin{column}{.45\textwidth}

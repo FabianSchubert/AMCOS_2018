@@ -10,15 +10,16 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 744.09448819 1052.3622047"
+   width="841mm"
+   height="1189mm"
+   viewBox="0 0 2979.9213 4212.9921"
    id="svg4891"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="dynamics_combined_figure.svg">
   <defs
-     id="defs4893">
+     id="defs4893"
+     style="stroke-linecap:butt;stroke-linejoin:round">
     <style
        id="style5443"
        type="text/css">
@@ -47,9 +48,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.30761719"
-     inkscape:cx="-26.940721"
-     inkscape:cy="709.93053"
+     inkscape:zoom="0.20031217"
+     inkscape:cx="837.90752"
+     inkscape:cy="2099.6898"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -73,11 +74,15 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     style="stroke-linecap:butt;stroke-linejoin:round"
+     transform="translate(0,3160.6299)">
     <g
        id="g7925"
-       transform="translate(106.2523,-60.90608)"
-       style="stroke-linecap:butt;stroke-linejoin:round">
+       transform="translate(1489.094,-1199.1296)"
+       style="stroke-linecap:butt;stroke-linejoin:round"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001">
       <g
          transform="matrix(1.25,0,0,1.25,-1154.2267,100.63847)"
          id="axes_1-8"
@@ -1212,7 +1217,9 @@
     <g
        style="stroke-linecap:butt;stroke-linejoin:round"
        id="axes_1-2"
-       transform="matrix(1.25,0,0,1.25,-318.1149,39.446209)">
+       transform="matrix(1.25,0,0,1.25,1064.7268,-1098.7773)"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001">
       <g
          style="stroke-linecap:butt;stroke-linejoin:round"
          id="patch_2-7">
@@ -1993,8 +2000,10 @@
     </g>
     <g
        id="g9344"
-       transform="translate(152.7873,214.55238)"
-       style="stroke-linecap:butt;stroke-linejoin:round">
+       transform="translate(1535.629,-923.67115)"
+       style="stroke-linecap:butt;stroke-linejoin:round"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001">
       <g
          transform="matrix(1.25,0,0,1.25,-1200.6341,-676.89903)"
          style="stroke-linecap:butt;stroke-linejoin:round"
@@ -2813,8 +2822,10 @@
     </g>
     <g
        id="g9150"
-       transform="translate(-1.35911,-13.779742)"
-       style="stroke-linecap:butt;stroke-linejoin:round">
+       transform="translate(1381.4826,-1152.0033)"
+       style="stroke-linecap:butt;stroke-linejoin:round"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001">
       <g
          transform="matrix(1.25,0,0,1.25,-316.75381,-448.30367)"
          style="stroke-linecap:butt;stroke-linejoin:round"
@@ -3900,50 +3911,58 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:27.70685387px;line-height:125%;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-889.93945"
-       y="-234.67299"
+       x="492.90222"
+       y="-1372.8965"
        id="text9518"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001"><tspan
          sodipodi:role="line"
          id="tspan9520"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';stroke-linecap:butt;stroke-linejoin:round"
-         x="-889.93945"
-         y="-234.67299">A</tspan></text>
+         x="492.90222"
+         y="-1372.8965">A</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text9522"
-       y="-234.67299"
-       x="-161.65213"
+       y="-1372.8965"
+       x="1221.1896"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:27.70685387px;line-height:125%;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="-234.67299"
-         x="-161.65213"
+       xml:space="preserve"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001"><tspan
+         y="-1372.8965"
+         x="1221.1896"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';stroke-linecap:butt;stroke-linejoin:round"
          id="tspan9524"
          sodipodi:role="line">B</tspan></text>
     <text
        sodipodi:linespacing="125%"
        id="text9526"
-       y="266.95551"
-       x="-889.93945"
+       y="-871.26801"
+       x="492.90222"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:27.70685387px;line-height:125%;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         y="266.95551"
-         x="-889.93945"
+       xml:space="preserve"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001"><tspan
+         y="-871.26801"
+         x="492.90222"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';stroke-linecap:butt;stroke-linejoin:round"
          id="tspan9528"
          sodipodi:role="line">C</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:27.70685387px;line-height:125%;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif, Medium';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       x="-161.65213"
-       y="266.95551"
+       x="1221.1896"
+       y="-871.26801"
        id="text9530"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="300.01001"
+       inkscape:export-ydpi="300.01001"><tspan
          sodipodi:role="line"
          id="tspan9532"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'CMU Sans Serif';-inkscape-font-specification:'CMU Sans Serif Bold';stroke-linecap:butt;stroke-linejoin:round"
-         x="-161.65213"
-         y="266.95551">D</tspan></text>
+         x="1221.1896"
+         y="-871.26801">D</tspan></text>
   </g>
 </svg>

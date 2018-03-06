@@ -9,7 +9,14 @@ import matplotlib as mpl
 mpl.rcParams["font.size"] = 8.
 import pdb
 
-from rate_dyn_params import *
+#from supercrit_hopf_params import *
+from subcrit_hopf_params_forward import *
+#from subcrit_hopf_params_backward import *
+
+#from bistable_saddle_params import *
+#from inv_circle_saddle_params import *
+
+#from rate_dyn_params import *
 #from spiking_dyn_params import *
 
 def length(r):
@@ -45,10 +52,9 @@ dt=0.01
 
 
 t=0
-t_end=300
 n_t = int(t_end/dt)
 
-N=3
+
 
 r_rec = np.ndarray((n_t,N,2))
 u_rec = np.ndarray((n_t,N))
@@ -57,7 +63,7 @@ u=np.zeros(N)*0.
 
 I=np.zeros(N)*0.
 
-r=np.zeros((N,2))
+r=r_start[:]#np.zeros((N,2))
 
 g_exc = np.zeros((N))
 g_inh = np.zeros((N))
@@ -85,7 +91,7 @@ I_rec = np.ndarray((n_t,N))
 I_exc_syn_rec = np.ndarray((n_t,N))
 I_inh_syn_rec = np.ndarray((n_t,N))
 
-I_ext = np.array([0.,0.,0.])#np.linspace(-20.,30.,n_t)
+I_ext = np.zeros((N))#np.linspace(-20.,30.,n_t)
 
 
 
@@ -144,17 +150,30 @@ for t in tqdm(range(n_t)):
 	#	data.close()
 fig,ax = plt.subplots(N,2,figsize=(15,10))
 labels=["isolated reference neuron","exc. neuron","inh. neuron"]
-for k in range(N):
-	ax[k,0].plot(np.array(range(n_t))*dt,u_rec[:,k],c="k")
-	ax[k,0].set_title(labels[k])
-	ax[k,0].set_xlabel("t")
-	ax[k,0].set_ylabel("u")
+if N > 1:
+	for k in range(N):
+		ax[k,0].plot(np.array(range(n_t))*dt,u_rec[:,k],c="k")
+		ax[k,0].set_title(labels[k])
+		ax[k,0].set_xlabel("t")
+		ax[k,0].set_ylabel("u")
 
-	ax[k,1].plot(r_rec[:,k,0],r_rec[:,k,1],c="k")
-	ax[k,1].grid()
-	ax[k,1].set_xlabel("x")
-	ax[k,1].set_ylabel("y")
-	ax[k,1].set_title(labels[k])
+		ax[k,1].plot(r_rec[:,k,0],r_rec[:,k,1],c="k")
+		ax[k,1].grid()
+		ax[k,1].set_xlabel("x")
+		ax[k,1].set_ylabel("y")
+		ax[k,1].set_title(labels[k])
+else:
+	ax[0].plot(np.array(range(n_t))*dt,u_rec[:,k],c="k")
+	ax[0].set_title(labels[k])
+	ax[0].set_xlabel("t")
+	ax[0].set_ylabel("u")
+
+	ax[1].plot(r_rec[:,k,0],r_rec[:,k,1],c="k")
+	ax[1].grid()
+	ax[1].set_xlabel("x")
+	ax[1].set_ylabel("y")
+	ax[1].set_title(labels[k])
+
 plt.tight_layout()	
 
 plt.show()
