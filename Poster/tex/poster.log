@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  7 MAR 2018 16:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.1.22)  7 MAR 2018 16:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1298,16 +1298,16 @@ File: ../GU-Logo-schwarz.pdf Graphic file (type pdf)
 <use ../GU-Logo-schwarz.pdf>
 Package pdftex.def Info: ../GU-Logo-schwarz.pdf used on input line 16.
 (pdftex.def)             Requested size: 290.6806pt x 158.38124pt.
-LaTeX Font Info:    Calculating math sizes for size <28> on input line 130.
+LaTeX Font Info:    Calculating math sizes for size <28> on input line 139.
 
 <../figures/graphics/dynamics_combined_figure.png, id=16, 1100.1903pt x 805.569
 6pt>
 File: ../figures/graphics/dynamics_combined_figure.png Graphic file (type png)
  <use ../figures/graphics/dynamics_combined_figure.png>
 Package pdftex.def Info: ../figures/graphics/dynamics_combined_figure.png used 
-on input line 130.
+on input line 139.
 (pdftex.def)             Requested size: 839.5132pt x 614.69765pt.
-LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 130.
+LaTeX Font Info:    Calculating math sizes for size <29.04> on input line 139.
 
 <../figures/graphics/bif_types_combined_figure.png, id=18, 1197.5139pt x 844.83
 63pt>
@@ -1315,7 +1315,7 @@ File: ../figures/graphics/bif_types_combined_figure.png Graphic file (type png)
 
  <use ../figures/graphics/bif_types_combined_figure.png>
 Package pdftex.def Info: ../figures/graphics/bif_types_combined_figure.png used
- on input line 130.
+ on input line 139.
 (pdftex.def)             Requested size: 839.5132pt x 592.27087pt.
 
 <../figures/graphics/saddle_bif_fir_rates_combined.png, id=20, 1071.7641pt x 39
@@ -1324,7 +1324,7 @@ File: ../figures/graphics/saddle_bif_fir_rates_combined.png Graphic file (type
 png)
  <use ../figures/graphics/saddle_bif_fir_rates_combined.png>
 Package pdftex.def Info: ../figures/graphics/saddle_bif_fir_rates_combined.png 
-used on input line 130.
+used on input line 139.
 (pdftex.def)             Requested size: 839.5132pt x 306.6357pt.
 
 <../figures/graphics/spikefit.png, id=23, 692.8284pt x 395.076pt>
@@ -1332,7 +1332,7 @@ File: ../figures/graphics/spikefit.png Graphic file (type png)
 
 <use ../figures/graphics/spikefit.png>
 Package pdftex.def Info: ../figures/graphics/spikefit.png used on input line 13
-0.
+9.
 (pdftex.def)             Requested size: 734.56805pt x 418.88104pt.
 
 <../figures/graphics/rate_dyn_u_step_illustr.png, id=25, 1095.1314pt x 333.6465
@@ -1340,14 +1340,14 @@ pt>
 File: ../figures/graphics/rate_dyn_u_step_illustr.png Graphic file (type png)
  <use ../figures/graphics/rate_dyn_u_step_illustr.png>
 Package pdftex.def Info: ../figures/graphics/rate_dyn_u_step_illustr.png used o
-n input line 130.
+n input line 139.
 (pdftex.def)             Requested size: 944.44235pt x 287.73477pt.
 
 <../figures/graphics/network_dyn_combined.png, id=26, 1033.2201pt x 434.1018pt>
 File: ../figures/graphics/network_dyn_combined.png Graphic file (type png)
 <use ../figures/graphics/network_dyn_combined.png>
 Package pdftex.def Info: ../figures/graphics/network_dyn_combined.png used on i
-nput line 130.
+nput line 139.
 (pdftex.def)             Requested size: 944.44235pt x 396.80846pt.
  (./poster.bbl
 
@@ -1357,7 +1357,7 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <34.83> not available
 )
 File: ../GU-Logo-schwarz.pdf Graphic file (type pdf)
  <use ../GU-Logo-schwarz.pdf>
-Package pdftex.def Info: ../GU-Logo-schwarz.pdf used on input line 130.
+Package pdftex.def Info: ../GU-Logo-schwarz.pdf used on input line 139.
 (pdftex.def)             Requested size: 290.6806pt x 158.38124pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1375,19 +1375,19 @@ ics/rate_dyn_u_step_illustr.png> <../figures/graphics/network_dyn_combined.png>
 \tf@snm=\write8
 \openout8 = `poster.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
  (./poster.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
 Package rerunfilecheck Info: File `poster.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
  ) 
 Here is how much of TeX's memory you used:
  18628 strings out of 494860
  342795 string characters out of 6177602
- 489690 words of memory out of 5000000
+ 496640 words of memory out of 5000000
  21450 multiletter control sequences out of 15000+600000
  22486 words of font info for 90 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -1399,7 +1399,7 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi17.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on poster.pdf (1 page, 2103812 bytes).
+Output written on poster.pdf (1 page, 2104158 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
