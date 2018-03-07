@@ -9,7 +9,7 @@ import matplotlib as mpl
 mpl.rcParams["font.size"] = 8.
 import pdb
 
-from rate_dynamics_step_params import *
+#from rate_dynamics_step_params import *
 
 #from supercrit_hopf_params import *
 #from subcrit_hopf_params_forward import *
@@ -18,7 +18,7 @@ from rate_dynamics_step_params import *
 #from bistable_saddle_params import *
 #from inv_circle_saddle_params import *
 
-#from rate_dyn_params import *
+from rate_dyn_params import *
 #from spiking_dyn_params import *
 
 def length(r):
@@ -155,7 +155,7 @@ labels=["isolated reference neuron","exc. neuron","inh. neuron"]
 if N > 1:
 	for k in range(N):
 		ax[k,0].plot(np.array(range(n_t))*dt,u_rec[:,k],c="k")
-		ax[k,0].set_title(labels[k])
+		#ax[k,0].set_title(labels[k])
 		ax[k,0].set_xlabel("t")
 		ax[k,0].set_ylabel("u")
 
@@ -163,7 +163,7 @@ if N > 1:
 		ax[k,1].grid()
 		ax[k,1].set_xlabel("x")
 		ax[k,1].set_ylabel("y")
-		ax[k,1].set_title(labels[k])
+		#ax[k,1].set_title(labels[k])
 else:
 	ax[0].plot(np.array(range(n_t))*dt,u_rec[:,k],c="k")
 	ax[0].set_title(labels[k])

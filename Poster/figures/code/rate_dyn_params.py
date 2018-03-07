@@ -18,6 +18,8 @@ E_exc_syn = 10.
 E_inh_syn = -10.
 tau_g = 20.
 
+r_start = np.zeros((N,2))
+
 W_combined = np.array([	[0.,0.,0.],
 						[0.,0.,-.1],
 						[0.,.1,0.]])

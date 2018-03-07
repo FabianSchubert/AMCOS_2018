@@ -57,6 +57,14 @@
 \setbeamertemplate{itemize items}{\color{black}$\blacktriangleright$}
 \setbeamertemplate{navigation symbols}{}  % no navigation on a poster
 
+\newenvironment{myblock}[1]
+{\begin{block}{#1}
+\fontsize{28pt}{32pt}\selectfont
+}
+{\end{block}
+}
+
+
 %\newenvironment<>{myblock}[1]{%
 %	\begin{actionenv}#2%
 %	\def\insertblocktitle{\centering#1}%
