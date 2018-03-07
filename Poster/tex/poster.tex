@@ -45,7 +45,7 @@ g(x) &= g_0 \sigma\left(a_g\left(x-I\right)\right) - \Delta_y \\
 \end{minipage}
 \begin{figure}
 \centering
-\includegraphics[width=0.9\textwidth]{../figures/graphics/dynamics_combined_figure.png}
+\includegraphics[width=\textwidth]{../figures/graphics/dynamics_combined_figure.png}
 \label{fig:dynamics_illustr}
 \caption{\textbf{A}: x/y-nullclines (blue/red) of the dynamical system for parameter sets generating spiking/non spiking behavior. \textbf{B}: Phase plane trajectory for the spiking dynamics. \textbf{C}/\textbf{D}: Dynamics of readout variable $u$ for the spiking/non-spiking case.}
 \end{figure}
@@ -55,7 +55,7 @@ g(x) &= g_0 \sigma\left(a_g\left(x-I\right)\right) - \Delta_y \\
 \item A range of different types of spiking dynamics can be reproduced by this generic system.
 \end{itemize}
 \begin{figure}
-\includegraphics[width=0.9\textwidth]{../figures/graphics/bif_types_combined_figure.png}
+\includegraphics[width=\textwidth]{../figures/graphics/bif_types_combined_figure.png}
 \label{fig:bif_types_combined}
 \caption{Examples of spiking dynamics/bifurcations observed in the model, ordered by the property of coexistence of resting/spiking states and the possibility of sub-threshold oscillations. A: Saddle node bifurcation with coexisting limit cycle. B: Saddle node b. on invariant cycle. C: Subcritical Hopf b/ Fold b. of limit cycles. C: Supercritical Hopf b.}
 \end{figure}
@@ -63,16 +63,29 @@ g(x) &= g_0 \sigma\left(a_g\left(x-I\right)\right) - \Delta_y \\
 \item Based on the classification by Izhikevich \cite{Izhikevich_2007}, our model was able to generate class 1 (arbitrary small firing rates) as well as class 2 (all-or-none spiking behavior) firing patterns. 
 \end{itemize}
 \end{block}
-\begin{block}{Results -- Fitting Experimental Data}
-LALALA \\
-LALALA \\
-LALALA
-\end{block}
 \end{column}
 \begin{column}{.45\textwidth}
+
+\begin{block}{Results -- Fitting Experimental Data}
 \begin{figure}
-\includegraphics[width=0.8\textwidth]{../figures/graphics/spikefit.png}
+\includegraphics[width=0.9\textwidth]{../figures/graphics/spikefit.png}
+\label{fig:spikefit}
+\caption{Fit of the dynamical system onto measurements of a dopaminergic
+neuron in the Substantia Nigra of a mouse brain \cite{Bean_2007}.}
 \end{figure}
+\begin{itemize}
+\item The parameters of the dynamical systems allow to easily control key features of the voltage trace, such as spike height, spike width and resting and threshold potential.
+\end{itemize}
+\end{block}
+
+\begin{block}{Results -- Rate Encoding Model}
+\begin{itemize}
+\item The system's parameters can be tuned such that dynamics transition from a spiking behavior to a relaxation towards an input-dependent fixed point.
+\item The projection of this fixed point onto $u$ follows a sigmoidal as input increases, see Fig. \ref{fig:dynamics_illustr}C. 
+\end{itemize}
+
+\end{block}
+
 
 \bibliographystyle{unsrt}
 \bibliography{poster_citations}
