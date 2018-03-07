@@ -9,8 +9,10 @@ import matplotlib as mpl
 mpl.rcParams["font.size"] = 8.
 import pdb
 
+from rate_dynamics_step_params import *
+
 #from supercrit_hopf_params import *
-from subcrit_hopf_params_forward import *
+#from subcrit_hopf_params_forward import *
 #from subcrit_hopf_params_backward import *
 
 #from bistable_saddle_params import *
