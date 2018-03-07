@@ -311,9 +311,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.32231445"
-     inkscape:cx="471.44682"
-     inkscape:cy="399.12128"
+     inkscape:zoom="0.64462891"
+     inkscape:cx="274.56731"
+     inkscape:cy="-184.86716"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -347,7 +347,9 @@
        y="1060.9757" />
     <g
        id="g51980"
-       transform="translate(313.35858,603.44796)">
+       transform="translate(313.35858,603.44796)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          style="stroke-linecap:butt;stroke-linejoin:round"
          id="matplotlib.axis_1"
@@ -1200,7 +1202,9 @@
     </g>
     <g
        id="g52704"
-       transform="matrix(1.0789689,0,0,1,530.40465,509.70978)">
+       transform="matrix(1.0789689,0,0,1,530.40465,509.70978)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          style="stroke-linecap:butt;stroke-linejoin:round"
          id="matplotlib.axis_1-4"
@@ -2005,7 +2009,9 @@
     </g>
     <g
        id="g54364"
-       transform="matrix(0.94421178,0,0,1,-529.66353,1040.1333)">
+       transform="matrix(0.94421178,0,0,1,-529.66353,1040.1333)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          style="stroke-linecap:butt;stroke-linejoin:round"
          id="patch_27"
@@ -6465,7 +6471,9 @@
     <g
        style="stroke-linecap:butt;stroke-linejoin:round"
        id="axes_6"
-       transform="matrix(1.1712848,0,0,1.0076141,-370.99163,883.78736)">
+       transform="matrix(1.1712848,0,0,1.0076141,-370.99163,883.78736)"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <g
          style="stroke-linecap:butt;stroke-linejoin:round"
          id="patch_27-3">
@@ -7158,7 +7166,9 @@
        x="-376.11151"
        y="1051.4634"
        id="text58576"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan58578"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-linecap:butt;stroke-linejoin:round"
@@ -7170,7 +7180,9 @@
        y="1335.4634"
        x="-376.11151"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          y="1335.4634"
          x="-376.11151"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-linecap:butt;stroke-linejoin:round"
@@ -7182,7 +7194,9 @@
        y="1051.4634"
        x="289.05194"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:25px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       xml:space="preserve"><tspan
+       xml:space="preserve"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          y="1051.4634"
          x="289.05194"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-linecap:butt;stroke-linejoin:round"
@@ -7194,7 +7208,9 @@
        x="289.05194"
        y="1335.4634"
        id="text58588"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan58590"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.5px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';stroke-linecap:butt;stroke-linejoin:round"

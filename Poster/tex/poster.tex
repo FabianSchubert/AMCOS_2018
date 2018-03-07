@@ -15,12 +15,12 @@
 
 \begin{document}
 \begin{frame}[t]
-\begin{columns}
+\begin{columns}[t]
 \begin{column}{.45\textwidth}
 
 \begin{myblock}{Introduction}
 \begin{itemize}
-\item We introduce a two-dimensional nonlinear system, modeling a wide range of dynamic 
+\item We investigated a two-dimensional nonlinear system, modeling a wide range of dynamic 
 properties of spiking neurons.
 \item By altering key parameters of this system, its dynamics become identical to those of a 
 time-continuous rate-encoding model.
@@ -79,7 +79,7 @@ g(x) &= g_0 \sigma\left(a_g\left(x-I\right)\right) - \Delta_y \\
 
 \begin{myblock}{Fitting Experimental Data}
 \begin{figure}
-\includegraphics[width=0.8\textwidth]{../figures/graphics/spikefit.png}
+\includegraphics[width=0.7\textwidth]{../figures/graphics/spikefit.png}
 \caption{Fit of the dynamical system onto measurements of a dopaminergic
 neuron in the Substantia Nigra of a mouse brain \cite{Bean_2007}.}
 \label{fig:spikefit}
@@ -113,8 +113,13 @@ u_{\rm threshold} &\approx 1/\sqrt{2a}
 \begin{itemize}
 \item Combining our model with a simple model of synaptic transmission resulted in stable network dynamics for both spiking and rate encoding dynamics.
 \end{itemize}
+\begin{align*}
+\tau_g \dot{g} &= -g + w \cdot u_{\rm pre} \\
+I_{\rm syn} &= g(E_{\rm syn,exc/inh} - u_{\rm post})
+\end{align*}
 \begin{figure}
 \includegraphics[width=0.9\textwidth]{../figures/graphics/network_dyn_combined.png}
+\caption{Dynamics of an exc.(blue) and inh.(red) neuron mutually coupled, including additional input driving the exc. neuron. Black traces in A/C represent an isolated reference neuron driven by the same external input A/B: The network in its spiking state. C/D: Rate-encoding state, same coupling strengths.}
 \end{figure}
 \end{myblock}
 
